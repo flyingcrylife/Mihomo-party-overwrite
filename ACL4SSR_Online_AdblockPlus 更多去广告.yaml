@@ -179,6 +179,13 @@ rule-providers:
     interval: 86400
     format: text
     type: http
+  ProxyGFWlist:
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
+    path: ./ruleset/ProxyGFWlist.list
+    behavior: domain
+    interval: 86400
+    format: text
+    type: http
   ChinaDomain:
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
     path: ./ruleset/ChinaDomain.list
@@ -215,6 +222,7 @@ rules:
   - "RULE-SET,Telegram,📲 电报消息"
   - "RULE-SET,OpenAi,💬 OpenAi"
   - "RULE-SET,ProxyMedia,🌍 国外媒体"
+  - "RULE-SET,ProxyLite,🚀 节点选择"
   - "RULE-SET,ProxyGFWlist,🚀 节点选择"
   - "RULE-SET,ChinaDomain,🎯 全球直连"
   - "RULE-SET,ChinaCompanyIp,🎯 全球直连"
