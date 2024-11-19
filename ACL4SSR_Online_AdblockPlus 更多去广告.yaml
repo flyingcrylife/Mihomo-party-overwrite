@@ -165,6 +165,13 @@ rule-providers:
     interval: 86400
     format: text
     type: http
+  GoogleFCM:
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list
+    path: ./ruleset/GoogleFCM.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
   OpenAi:
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list
     path: ./ruleset/OpenAi.list
@@ -219,6 +226,7 @@ rules:
   - "RULE-SET,SteamCN,🎯 全球直连"
   - "RULE-SET,Microsoft,Ⓜ️ 微软服务"
   - "RULE-SET,Apple,🍎 苹果服务"
+  - "RULE-SET,Telegram,📢 谷歌FCM"
   - "RULE-SET,Telegram,📲 电报消息"
   - "RULE-SET,OpenAi,💬 OpenAi"
   - "RULE-SET,ProxyMedia,🌍 国外媒体"
