@@ -32,6 +32,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - CN2-GIA-DC6-Los
+  - name: 💬 OpenAi
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - CN2-GIA-DC6-Los
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -213,7 +219,9 @@ rules:
   - "RULE-SET,LocalAreaNetwork,🎯 全球直连"
   - "RULE-SET,BanAD,🛑 全球拦截"
   - "RULE-SET,BanProgramAD,🍃 应用净化"
-  - "RULE-SET,BanEasyList,BanEasyListChina,BanEasyPrivacy,🆎 AdBlock"
+  - "RULE-SET,BanEasyList,🆎 AdBlock"
+  - "RULE-SET,BanEasyListChina,🆎 AdBlock"
+  - "RULE-SET,BanEasyPrivacy,🆎 AdBlock"
   - "RULE-SET,GoogleCN,🎯 全球直连"
   - "RULE-SET,SteamCN,🎯 全球直连"
   - "RULE-SET,Microsoft,Ⓜ️ 微软服务"
