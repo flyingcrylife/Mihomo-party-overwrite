@@ -1,1 +1,1 @@
-自用覆写规则，修改自ACL4SSR_Online_AdblockPlus 更多去广告，同步更新
+自用覆写规则，综合修改自ACL4SSR，同步更新，适合自建节点
