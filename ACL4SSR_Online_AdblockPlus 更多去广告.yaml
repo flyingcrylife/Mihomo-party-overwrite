@@ -26,7 +26,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - CN2-GIA-DC6-Los
-  - name: 📲 电报信息
+  - name: 📲 电报消息
     type: select
     proxies:
       - 🚀 节点选择
