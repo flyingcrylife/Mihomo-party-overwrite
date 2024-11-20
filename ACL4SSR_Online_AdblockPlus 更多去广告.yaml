@@ -182,14 +182,14 @@ rule-providers:
   ProxyLite:
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
     path: ./ruleset/ProxyLite.list
-    behavior: domain
+    behavior: classical
     interval: 86400
     format: text
     type: http
   ProxyGFWlist:
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
     path: ./ruleset/ProxyGFWlist.list
-    behavior: domain
+    behavior: classical
     interval: 86400
     format: text
     type: http
