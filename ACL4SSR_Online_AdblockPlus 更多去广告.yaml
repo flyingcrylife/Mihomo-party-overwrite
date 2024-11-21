@@ -131,7 +131,7 @@ rule-providers:
     format: text
     type: http
   SteamCN:
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/SteamCN.list
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
     path: ./ruleset/SteamCN.list
     behavior: classical
     interval: 86400
